@@ -43,7 +43,7 @@
       <div id="education" class="content-item">
         <div class="vertical-center">
           <h2>Education</h2>
-          <p>...</p>
+          <p><?php echo $json_data['school']; ?> · <?php echo $json_data['degree']; ?> ·</p>
         </div>
       </div>
       <hr>
@@ -64,15 +64,15 @@
       <hr>
       <div id="skills" class="content-item">
         <div class="vertical-center">
-          <h2>Education</h2>
-          <p>...</p>
+          <h2>Skills</h2>
+          <p><?php echo $json_data['skills']; ?></p>
         </div>
       </div>
       <hr>
       <div id="interests" class="content-item">
         <div class="vertical-center">
-          <h2>Education</h2>
-          <p>...</p>
+          <h2>Interest</h2>
+          <p><?php echo $json_data['interests']; ?></p>
           </div>
         </div>    
       <?php  } ?>
