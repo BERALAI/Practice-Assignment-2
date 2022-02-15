@@ -1,6 +1,6 @@
 {
-  "first-name": "Firstname",
-  "last-name": "Lastname",
+  "first-name": "David",
+  "last-name": "Castellanos",
   "address": "5500 University Pkwy, San Bernardino, CA 92407",
   "phone": "(123)456-7890",
   "email": "name@mail.com",
@@ -17,6 +17,27 @@
       "employer":"CSUSB",
       "period":"March 2018 - 2021",
       "description":"A description of your experience with this job."
+    }
+  ]
+  "About":[
+    {
+      "About":"I like turtles"
+    }
+  ]
+ "Education":[
+    {
+      "school":"CSUSB",
+      "degree":"Web Development"
+    }
+  ]
+ "Skills":[
+    {
+      "skills":"HTML, CSS, JAVASCRIPT"
+    }
+  ]
+ "Interests":[
+    {
+      "interests":"Video Games, Music, Travelling"
     }
   ]
 }
