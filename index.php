@@ -22,8 +22,6 @@
           <a class="nav-link" href="#about">About</a>
           <a class="nav-link" href="#education">Education</a>
           <a class="nav-link" href="#experience">Experience</a>
-          <a class="nav-link" href="#experience">Skills</a>
-          <a class="nav-link" href="#experience">Interests</a>
         </nav>
       </nav>
     </div>
@@ -43,41 +41,29 @@
       <div id="education" class="content-item">
         <div class="vertical-center">
           <h2>Education</h2>
-          <p><?php echo $json_data['school']; ?> · <?php echo $json_data['degree']; ?> ·</p>
+          <p>...</p>
         </div>
       </div>
       <hr>
-      <?php foreach($json_data['experience'] AS $experience) { ?>
-  <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-    <div class="flex-grow-1">
-      <h3 class="mb-0"><?php echo $experience['title']; ?></h3>
-      <div class="subheading mb-3"><?php echo $experience['employer']; ?></div>
-      <p><?php echo $experience['description']; ?></p>
-    </div>
-    <div class="flex-shrink-0">
-      <span class="text-primary"><?php echo $experience['period']; ?></span>
-    </div>
-  </div>
-<?php  } ?>
-      <hr>
-      <div id="skills" class="content-item">
+      <div id="experience" class="content-item">
         <div class="vertical-center">
-          <h2>Skills</h2>
-          <p><?php echo $json_data['skills']; ?></p>
+          <h2>Experience</h2>
+          <?php foreach($json_data['experience'] AS $experience) { ?>
+              <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                  <h3 class="mb-0"><?php echo $experience['title']; ?></h3>
+                  <div class="subheading mb-3"><?php echo $experience['employer']; ?></div>
+                  <p><?php echo $experience['description']; ?></p>
+                </div>
+                <div class="flex-shrink-0">
+                  <span class="text-primary"><?php echo $experience['period']; ?></span>
+                </div>
+              </div>
+          <?php  } ?>
         </div>
       </div>
       <hr>
-      <div id="interests" class="content-item">
-        <div class="vertical-center">
-          <h2>Interest</h2>
-          <p><?php echo $json_data['interests']; ?></p>
-          </div>
-        </div>    
-      <?php  } ?>
-     </div>
     </div>
-   <hr>
- </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
