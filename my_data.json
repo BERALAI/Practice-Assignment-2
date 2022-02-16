@@ -1,10 +1,10 @@
 {
-  "first-name": "Firstname",
-  "last-name": "Lastname",
-  "address": "5500 University Pkwy, San Bernardino, CA 92407",
+  "first-name": "David",
+  "last-name": "Castellanos",
+  "address": "3173 Fake Dr., Riverside CA 92509",
   "phone": "(123)456-7890",
-  "email": "name@mail.com",
-  "introduction": "A introduction of youself ...",
+  "email": "fakename@email.com",
+  "introduction": "My name is David! I am a web developer!",
   "experience":[
     {
       "title":"WEB DEVELOPER",
