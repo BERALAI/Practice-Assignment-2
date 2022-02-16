@@ -31,5 +31,11 @@
       "languages":"Coding Languages: HTML, CSS, Javascript, C++, C#  ",
       "programs":"Programs : Adobe Suite, Visual Studio, Github"
     }
+  ],
+   "interests":[
+    {
+      "hobbies":"Hpbbies: Art, Production, Travelling  ",
+      "music":"Music: Rock, EDM, HipHop  "
+    }
   ]
 }
