@@ -25,5 +25,11 @@
       "year":"2019-2022",
       "period":"March 2018 - Present"
     }
-  ]
+  ],
+   "skills":[
+    {
+      "languages":"HTML, CSS, Javascript  ",
+      "programs":"Adobe Suite, Visual Studio, Github"
+    }
+  ],
 }
