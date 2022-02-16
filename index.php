@@ -96,7 +96,7 @@
               <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
                   <h3 class="mb-0"><?php echo $interests['hobbies']; ?></h3>
-                  <p><?php echo $skills['music']; ?></p>
+                  <p><?php echo $interests['music']; ?></p>
                 </div>
               </div>
           <?php  } ?>
