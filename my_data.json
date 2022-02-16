@@ -19,5 +19,11 @@
       "description":"A description of your experience with this job."
     }
   ],
-  "education": "schooo"
+  "education":[
+    {
+      "school":"CSUSUB",
+      "year":"2019-2022",
+      "period":"March 2018 - Present"
+    }
+  ]
 }
