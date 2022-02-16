@@ -80,7 +80,6 @@
               <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
                   <h3 class="mb-0"><?php echo $skills['languages']; ?></h3>
-                  <div class="subheading mb-3"><?php echo $experience['employer']; ?></div>
                   <p><?php echo $skills['programs']; ?></p>
                 </div>
               </div>
